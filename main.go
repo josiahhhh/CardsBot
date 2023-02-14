@@ -411,6 +411,7 @@ func main() {
 			h(s, i)
 		}
 	})
+
 	registeredCommands := make([]*discordgo.ApplicationCommand, len(commands))
 	for i, v := range commands {
 		cmd, err := dg.ApplicationCommandCreate(AppID, "", v)
@@ -517,6 +518,7 @@ func GetCardURL(card playingcards.Card, style int) string {
 		hostURL = "http://localhost:8080"
 	}
 	cardURL := fmt.Sprintf("%s/%s", hostURL, cardPath)
+
 	return cardURL
 }
 

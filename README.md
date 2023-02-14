@@ -29,8 +29,6 @@ To host your own instance of this bot, you'll first need to set up a new applica
 
 After setting up the bot application, click on the Deploy to DigitalOcean Button below.
 
-[![Deploy to DO](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/svntax/PlayingCardsBot/tree/main)
-
 The app uses two environment variables:
 
 `BOT_TOKEN` is the secret token you can get from your bot application created on Discord. Make sure this token is kept secret.
